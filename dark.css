@@ -1,0 +1,112 @@
+body{
+   background-color: #02214f;
+   font-family: Arial, Helvetica, sans-serif;
+   overflow: hidden;
+}
+
+.area-login{ /*personalização da área onde ficará o login*/
+	display: flex;
+	height: 80vh;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.login{    /*personalização do local das informações*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 8px;
+	background-color: #ffff;
+	width: 480px;
+	height: 500px;
+    padding: 25px;
+}
+
+.login form{ /*formulário*/
+	display: flex;
+	flex-direction: column;
+	width: 65%;
+}
+
+.login input{ /*input*/
+	margin-top: 10px;
+	background-color: #120a8f;
+    border:none;
+    height: 50px;
+    outline: none;
+    border-radius: 8px;
+
+}
+
+.login img{ /*personalização da imagem*/
+	width:500px;
+	height: 400px;
+	justify-content: column;
+	margin-top: -60px;
+
+}
+
+.btn-login{ /*botão login personalizado*/
+	width: 90%;
+	padding: 16px 0px;
+	margin: 25px;
+	border: none;
+	border-radius: 8px;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 3px;
+	color: #2b134b;
+	background: #FF8C00;
+	cursor: pointer;
+	box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+
+.textfield{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	margin: 10px 10px;
+}
+
+.textfield > input{
+	width: 100%;
+	border-radius: 10px;
+	letter-spacing: 2px;
+	padding: 15px;
+	border: none;
+	background: #120a8f;
+	color: #f0ffffde;
+	font-size: 12pt;
+	box-shadow: 0px 10px 40px #00000056;
+	outline: none;
+	box-sizing: border-box;
+}
+
+.textfield > label{
+	color: #120a8f;
+	margin-bottom: 10px;
+    
+}
+
+.textfield > input::placeholder{
+	color: #f0ffff94;
+}
+
+.card-login{
+	margin-top: -140px;
+}
+
+.iserj img{
+	margin-top: -10px;
+	width: 180px;
+	height: 70px;
+	margin-left: 50px;
+}
